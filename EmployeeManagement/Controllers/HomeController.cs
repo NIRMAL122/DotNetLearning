@@ -6,7 +6,7 @@ namespace EmployeeManagement.Controllers
 {
     public class HomeController : Controller
     {
-        private IEmployeeRepository _employeeRepository;
+        private readonly IEmployeeRepository _employeeRepository;
 
         public HomeController(IEmployeeRepository employeeRepository)
         {
@@ -18,6 +18,20 @@ namespace EmployeeManagement.Controllers
             return _employeeRepository.GetEmployee(1).Name;
         }
 
-        
+        public ViewResult Details()
+        {
+            Employee emp= _employeeRepository.GetEmployee(1);
+
+            //ViewData
+            //ViewData["employees"] = emp;
+            //ViewData["project"] = "Employee Management";
+            //viewBag
+            //ViewBag.Employees = emp;
+            ViewBag.title = "Employee Details";
+
+            return View(emp);
+        }
+
+
     }
 }

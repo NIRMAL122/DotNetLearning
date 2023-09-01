@@ -1,0 +1,22 @@
+﻿@model EmployeeManagement.Models.Employee
+
+@*<h3>@ViewData["title"]</h3>
+
+@{
+    var emp = ViewData["employees"] as EmployeeManagement.Models.Employee;
+}*@
+
+
+<h3>@ViewBag.title</h3>
+
+<div>
+    @*Name: @ViewBag.Employees.Name*@
+    @*Name: @emp.Name*@
+    Name: @Model.Name
+</div>
+<div>
+    Email: @Model.Email
+</div>
+<div>
+    Department: @Model.Department
+</div>
