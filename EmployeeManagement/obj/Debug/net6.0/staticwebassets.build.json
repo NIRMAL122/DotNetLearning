@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tIMqA0YpawRtEmFYbHwqVcEDVRf7dRstnglh0J5pysk=",
+  "Hash": "3qxq/H0FpdIivTCecaolawLF8/8VJNOSaztqd413eQE=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\3.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\bw.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/bw.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bw.jpg"
     },
     {
       "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\js\\site.js",

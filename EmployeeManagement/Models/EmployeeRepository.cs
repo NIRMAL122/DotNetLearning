@@ -8,9 +8,9 @@
         {
             _employeeList = new List<Employee>()
             {
-                new Employee() { Id = 1, Name="Annalise", Department="Crime", Email="AKeating@gmail.com" },
-                new Employee() { Id = 2, Name="Laurel", Department="Crime Student", Email="Laurel@gmail.com" },
-                new Employee() { Id = 3, Name="Frank", Department="Hitman", Email="Frank@gmail.com" }
+                new Employee() { Id = 1, Name="Annalise", Department=Dept.IT, Email="AKeating@gmail.com" },
+                new Employee() { Id = 2, Name="Laurel", Department=Dept.Payroll, Email="Laurel@gmail.com" },
+                new Employee() { Id = 3, Name="Frank", Department=Dept.HR, Email="Frank@gmail.com" }
             };
         }
 
