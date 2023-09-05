@@ -1,4 +1,4 @@
-﻿@model EmployeeManagement.ViewModels.HomeDetailsViewModel
+﻿@model HomeDetailsViewModel
 
 @*<h3>@ViewData["title"]</h3>
 
@@ -9,12 +9,12 @@
 
 @*<h3>@ViewBag.title</h3>*@
 
-<h3>@Model.PageTitle</h3>
+@*<h3>@Model.PageTitle</h3>
 
 <div>
-    @*Name: @ViewBag.Employees.Name*@
-    @*Name: @emp.Name*@
-    @*Name: @Model.Name*@
+    Name: @ViewBag.Employees.Name
+    Name: @emp.Name
+    Name: @Model.Name
     Name: @Model.Employee.Name
 </div>
 <div>
@@ -22,4 +22,22 @@
 </div>
 <div>
     Department: @Model.Employee.Department
+</div>*@
+
+<div class="card-deck col-12">
+    
+        <div class="card col-6">
+            <div class="card-header">
+            <h3>@Model.Employee.Name</h3>
+            </div>
+            <img class="card-img-top" src="~/images/bw.jpg">
+            <h2>@Model.Employee.Email</h2>
+            <h2>@Model.Employee.Department</h2>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    
 </div>

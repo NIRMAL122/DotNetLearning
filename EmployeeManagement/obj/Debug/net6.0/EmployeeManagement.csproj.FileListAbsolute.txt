@@ -29,3 +29,4 @@ C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\obj\Debug\
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\libman.json

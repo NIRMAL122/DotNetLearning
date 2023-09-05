@@ -1,27 +1,25 @@
-﻿@model IEnumerable<EmployeeManagement.Models.Employee>
+﻿@model IEnumerable<Employee>
 @{
     
     ViewData["Title"] = "List of Employees";
 }
 
-<table >
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>NAME</th>
-            <th>Department</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody ">
-        @foreach(var emp in Model)
-        {
-            <tr>
-                <td>@emp.Id</td>
-                <td>@emp.Name</td>
-                <td>@emp.Department</td>
-                <td>@emp.Email</td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+<div class="card-deck col-12">
+    @foreach(var emp in Model)
+    {
+        <div class="card col-3">
+            <div class="card-header">
+                <h3>@emp.Name</h3>
+            </div>
+            <img class="card-img-top" src="~/images/bw.jpg">
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-primary">View</a>
+                <a href="#" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    }
+</div>
+
+

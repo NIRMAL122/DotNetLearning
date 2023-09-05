@@ -13,14 +13,15 @@ namespace EmployeeManagement.Controllers
         {
             _employeeRepository = employeeRepository;
         }
-
+        //[Route("")]
+        //[Route("Homepage")]
         public ViewResult Index()
         {
             var employees= _employeeRepository.GetAllEmployees();
             return View(employees);
         }
-
-        public ViewResult Details()
+        //[Route("detail/{id?}")]
+        public ViewResult Details(int? id)
         {
             //Employee emp= _employeeRepository.GetEmployee(1);
 
@@ -35,7 +36,7 @@ namespace EmployeeManagement.Controllers
             //viewModel
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
-                Employee = _employeeRepository.GetEmployee(1),
+                Employee = _employeeRepository.GetEmployee(id??1),
                 PageTitle = "Employee Details"
             };
 
