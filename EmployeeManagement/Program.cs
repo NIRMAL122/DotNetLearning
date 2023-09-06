@@ -1,4 +1,5 @@
 using EmployeeManagement.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement
 {
@@ -8,14 +9,18 @@ namespace EmployeeManagement
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddSingleton<IEmployeeRepository,EmployeeRepository>();
 
+            builder.Services.AddDbContextPool<AppDbContext>(
+                options => options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("EmpDbConnection")));
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+           
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
