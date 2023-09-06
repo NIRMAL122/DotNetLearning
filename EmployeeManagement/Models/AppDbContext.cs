@@ -9,5 +9,11 @@ namespace EmployeeManagement.Models
 
         }
         public DbSet<Employee> Employees { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //seed is an extension method to seed data into employee table
+            modelBuilder.seed();
+        }
     }
 }
