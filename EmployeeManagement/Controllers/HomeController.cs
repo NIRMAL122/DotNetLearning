@@ -8,10 +8,14 @@ namespace EmployeeManagement.Controllers
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
+        private readonly IWebHostEnvironment hostingEnvironment;
 
-        public HomeController(IEmployeeRepository employeeRepository)
+        public HomeController(IEmployeeRepository employeeRepository,
+            IWebHostEnvironment hostEnvironment)
         {
             _employeeRepository = employeeRepository;
+            hostingEnvironment = hostEnvironment;
+            
         }
         //[Route("")]
         //[Route("Homepage")]
@@ -49,12 +53,30 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Employee emp)
+        public IActionResult Create(EmployeeCreateViewModel model)
         {
             if(ModelState.IsValid)
             {
-                Employee newEmp = _employeeRepository.AddEmployee(emp);
-                //return RedirectToAction("details", new { id = newEmp.Id });
+                string uniqueFileName = null;
+                if (model.Photo != null)
+                {
+                    string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");
+                    uniqueFileName = Guid.NewGuid().ToString() + "_" + model.Photo.FileName;
+                    string filePath= Path.Combine(uploadsFolder, uniqueFileName);
+                    model.Photo.CopyTo(new FileStream(filePath, FileMode.Create));
+
+                }
+
+                Employee newEmp = new Employee
+                {
+                    Name = model.Name,
+                    Email = model.Email,
+                    Department = model.Department,
+                    PhotoPath = uniqueFileName
+                };
+
+                _employeeRepository.AddEmployee(newEmp);
+                return RedirectToAction("details", new { id = newEmp.Id });
 
             }
 

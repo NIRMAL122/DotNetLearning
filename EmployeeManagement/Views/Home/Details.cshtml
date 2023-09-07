@@ -1,4 +1,8 @@
 ﻿@model HomeDetailsViewModel
+@{
+    var photoPath = "~/images/" + (Model.Employee.PhotoPath ?? "bw.jpg");
+
+}
 
 @*<h3>@ViewData["title"]</h3>
 
@@ -30,7 +34,7 @@
             <div class="card-header">
             <h3>@Model.Employee.Name</h3>
             </div>
-            <img class="card-img-top" src="~/images/bw.jpg">
+            <img class="card-img-top" src="@photoPath" asp-append-version="true">
             <h2>@Model.Employee.Email</h2>
             <h2>@Model.Employee.Department</h2>
             <div class="card-footer text-center">
