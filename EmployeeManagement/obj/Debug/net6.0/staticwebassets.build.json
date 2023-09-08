@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PQM8MatXXUOfiwNox/BPAlG9EnZtfXaQjD58trd3C34=",
+  "Hash": "J8aYt1dfow/5gxvoWIIbmMEvdpO9pHhtbCCB48tmFHs=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\913c24b6-da4d-4897-a992-fca132a10875_pexels-phil-nguyen-1084554.jpg"
+    },
+    {
+      "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\a55acc6a-1546-40d2-bc63-d456e4433711_pexels-quang-anh-ha-nguyen-884979.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/a55acc6a-1546-40d2-bc63-d456e4433711_pexels-quang-anh-ha-nguyen-884979.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a55acc6a-1546-40d2-bc63-d456e4433711_pexels-quang-anh-ha-nguyen-884979.jpg"
     },
     {
       "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\b87d2358-be1e-4e9e-814c-2fb72fb64a69_helo.jpg",
