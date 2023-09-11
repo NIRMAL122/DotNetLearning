@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\13e9e873-b690-4da1-bc5b-b76604171471_cartoon.jpg",
+      "PackagePath": "staticwebassets\\images\\13e9e873-b690-4da1-bc5b-b76604171471_cartoon.jpg"
+    },
+    {
       "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\2e1b4344-610b-4c0a-8d2c-d39e1b634210_janvi.jpg",
       "PackagePath": "staticwebassets\\images\\2e1b4344-610b-4c0a-8d2c-d39e1b634210_janvi.jpg"
     },
     {
       "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\3.jpg",
       "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\6d80ad2f-8ae1-4bbe-b38d-dc0ff625c17b_girl.jpg",
+      "PackagePath": "staticwebassets\\images\\6d80ad2f-8ae1-4bbe-b38d-dc0ff625c17b_girl.jpg"
     },
     {
       "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\913c24b6-da4d-4897-a992-fca132a10875_pexels-phil-nguyen-1084554.jpg",
@@ -29,12 +37,12 @@
       "PackagePath": "staticwebassets\\images\\a55acc6a-1546-40d2-bc63-d456e4433711_pexels-quang-anh-ha-nguyen-884979.jpg"
     },
     {
-      "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\b87d2358-be1e-4e9e-814c-2fb72fb64a69_helo.jpg",
-      "PackagePath": "staticwebassets\\images\\b87d2358-be1e-4e9e-814c-2fb72fb64a69_helo.jpg"
-    },
-    {
       "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\bw.jpg",
       "PackagePath": "staticwebassets\\images\\bw.jpg"
+    },
+    {
+      "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\e57b674d-7868-44b2-8f49-cef25fb60071_pexels-marcelo-moreira-2301713.jpg",
+      "PackagePath": "staticwebassets\\images\\e57b674d-7868-44b2-8f49-cef25fb60071_pexels-marcelo-moreira-2301713.jpg"
     },
     {
       "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\js\\site.js",

@@ -49,6 +49,7 @@
                 emp.Name= employee.Name;
                 emp.Email= employee.Email;
                 emp.Department= employee.Department;
+                emp.PhotoPath= employee.PhotoPath;
             }
             return emp;
         }
