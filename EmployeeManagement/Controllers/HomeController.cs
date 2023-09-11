@@ -39,6 +39,8 @@ namespace EmployeeManagement.Controllers
 
             //viewModel
 
+            throw new Exception("testing");
+
             Employee emp = _employeeRepository.GetEmployee(id.Value);
             if(emp== null)
             {

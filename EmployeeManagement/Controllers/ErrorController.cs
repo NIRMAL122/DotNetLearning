@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Controllers
 {
@@ -15,5 +17,22 @@ namespace EmployeeManagement.Controllers
             }
             return View("NotFound");
         }
+
+        [AllowAnonymous]
+        [Route("Error")]
+        public IActionResult Error()
+        {
+            //retrieve exception Details
+            var exceptionHandlerPathFeature =
+                HttpContext.Features.Get<IExceptionHandlerFeature>();
+
+            ViewBag.ExcPath = exceptionHandlerPathFeature.Path;
+            ViewBag.ExcMsg = exceptionHandlerPathFeature.Error.Message;
+            ViewBag.StackTrace = exceptionHandlerPathFeature.Error.StackTrace;
+
+            return View("Error");
+        }
     }
+
+   
 }
