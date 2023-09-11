@@ -26,6 +26,10 @@ namespace EmployeeManagement
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+            else
+            {
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+            }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
