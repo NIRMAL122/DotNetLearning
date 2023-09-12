@@ -90,3 +90,4 @@ C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\NLog.dll
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

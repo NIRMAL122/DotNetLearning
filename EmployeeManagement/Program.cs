@@ -1,4 +1,5 @@
 using EmployeeManagement.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NLog.Extensions.Logging;
 
@@ -18,6 +19,18 @@ namespace EmployeeManagement
             builder.Services.AddDbContextPool<AppDbContext>(
                 options => options.UseSqlServer(
                     builder.Configuration.GetConnectionString("EmpDbConnection")));
+
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>().
+                AddEntityFrameworkStores<AppDbContext>();
+
+
+            //override password default settings
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequiredLength = 5;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequiredUniqueChars = 0;
+            });
 
             builder.Services.AddLogging(builder =>
             {
@@ -46,7 +59,9 @@ namespace EmployeeManagement
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication();
+
+            //app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",

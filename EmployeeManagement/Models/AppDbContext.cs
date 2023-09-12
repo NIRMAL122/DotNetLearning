@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.Models
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext:IdentityDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext>options):base(options)
         {
@@ -13,6 +14,7 @@ namespace EmployeeManagement.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //seed is an extension method to seed data into employee table
+            base.OnModelCreating(modelBuilder); //calling "IdentityDbContext" base class onModelCreating method
             modelBuilder.seed();
         }
     }
