@@ -1,5 +1,6 @@
 using EmployeeManagement.Models;
 using Microsoft.EntityFrameworkCore;
+using NLog.Extensions.Logging;
 
 namespace EmployeeManagement
 {
@@ -17,6 +18,12 @@ namespace EmployeeManagement
             builder.Services.AddDbContextPool<AppDbContext>(
                 options => options.UseSqlServer(
                     builder.Configuration.GetConnectionString("EmpDbConnection")));
+
+            builder.Services.AddLogging(builder =>
+            {
+                builder.SetMinimumLevel(LogLevel.Trace);
+                builder.AddNLog();
+            });
 
             var app = builder.Build();
 

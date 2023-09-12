@@ -86,3 +86,7 @@ C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\System.Text.Json.dll
 C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\nlog.config
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\NLog.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\EmployeeManagement\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

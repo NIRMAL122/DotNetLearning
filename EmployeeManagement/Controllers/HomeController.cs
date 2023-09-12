@@ -9,12 +9,15 @@ namespace EmployeeManagement.Controllers
     {
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IWebHostEnvironment hostingEnvironment;
+        private readonly ILogger<HomeController> logger;
 
         public HomeController(IEmployeeRepository employeeRepository,
-            IWebHostEnvironment hostEnvironment)
+            IWebHostEnvironment hostEnvironment,
+            ILogger<HomeController> logger)
         {
             _employeeRepository = employeeRepository;
             hostingEnvironment = hostEnvironment;
+            this.logger= logger;
             
         }
         //[Route("")]
@@ -39,7 +42,14 @@ namespace EmployeeManagement.Controllers
 
             //viewModel
 
-            throw new Exception("testing");
+            //throw new Exception("testing");
+
+            //logger.LogTrace("Trace");
+            //logger.LogDebug("Debug");
+            //logger.LogInformation("Information");
+            //logger.LogWarning("Warning");
+            //logger.LogError("Error");
+            //logger.LogCritical("Critical");
 
             Employee emp = _employeeRepository.GetEmployee(id.Value);
             if(emp== null)
