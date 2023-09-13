@@ -1,5 +1,7 @@
 using EmployeeManagement.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using NLog.Extensions.Logging;
 
@@ -14,12 +16,15 @@ namespace EmployeeManagement
             
             builder.Services.AddControllersWithViews();
 
+            //DI- injecting repo services
             builder.Services.AddScoped<IEmployeeRepository,SQLEmployeeRepository>();
 
+            //CreateDBConnection
             builder.Services.AddDbContextPool<AppDbContext>(
                 options => options.UseSqlServer(
                     builder.Configuration.GetConnectionString("EmpDbConnection")));
 
+            //AddIdentiy
             builder.Services.AddIdentity<IdentityUser, IdentityRole>().
                 AddEntityFrameworkStores<AppDbContext>();
 
@@ -32,10 +37,20 @@ namespace EmployeeManagement
                 options.Password.RequiredUniqueChars = 0;
             });
 
+            //logging
             builder.Services.AddLogging(builder =>
             {
                 builder.SetMinimumLevel(LogLevel.Trace);
                 builder.AddNLog();
+            });
+
+            //adding authorization globally
+            builder.Services.AddMvc(config =>
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                                        .RequireAuthenticatedUser()
+                                        .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
             });
 
             var app = builder.Build();
@@ -61,7 +76,7 @@ namespace EmployeeManagement
 
             app.UseAuthentication();
 
-            //app.UseAuthorization();
+            app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",

@@ -1,10 +1,12 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagement.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace EmployeeManagement.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -22,12 +24,14 @@ namespace EmployeeManagement.Controllers
         }
         //[Route("")]
         //[Route("Homepage")]
+        [AllowAnonymous]
         public ViewResult Index()
         {
             var employees= _employeeRepository.GetAllEmployees();
             return View(employees);
         }
         //[Route("detail/{id?}")]
+        [AllowAnonymous]
         public ViewResult Details(int? id)
         {
             //Employee emp= _employeeRepository.GetEmployee(1);
