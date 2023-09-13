@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EmployeeManagement.Models
+namespace EmployeeManagement.ViewModels
 {
     public class RegisterViewModel
     {
@@ -13,9 +13,9 @@ namespace EmployeeManagement.Models
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name ="Confirm Password")]
+        [Display(Name = "Confirm Password")]
         [Compare("Password",
-            ErrorMessage ="Password and Confirmation password do not match.")]
+            ErrorMessage = "Password and Confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
     }
 }
