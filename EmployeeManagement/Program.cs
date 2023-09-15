@@ -25,7 +25,7 @@ namespace EmployeeManagement
                     builder.Configuration.GetConnectionString("EmpDbConnection")));
 
             //AddIdentiy
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>().
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().
                 AddEntityFrameworkStores<AppDbContext>();
 
 

@@ -26,7 +26,12 @@
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
 
-            <button type="submit" class="btn btn-primary">Register</button>
+            <div class="form-group">
+                <label asp-for="City"></label>
+                <input asp-for="City" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary m-2">Register</button>
         </form>
     </div>
 </div>
