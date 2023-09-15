@@ -54,7 +54,14 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Create">Create</a>
                         </li>
-                       
+
+                        @if(signInUser.IsSignedIn(User) && User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Administration" asp-action="ListRoles">Manage Roles</a>
+                            </li>
+                        }
+
                     </ul>
 
                     <partial name="_LoginLogout" />

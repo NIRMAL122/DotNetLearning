@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QKB/kZ8mj+hlwRiJA5a6o6CidgjN3GpaJoPKb51OTPs=",
+  "Hash": "GXmx/rDYure2AQfMRAdIoGQoWw7ILL5NPf0IlPbu53U=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\a55acc6a-1546-40d2-bc63-d456e4433711_pexels-quang-anh-ha-nguyen-884979.jpg"
+    },
+    {
+      "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\accessDenied.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/accessDenied.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\accessDenied.jpg"
     },
     {
       "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\bw.jpg",

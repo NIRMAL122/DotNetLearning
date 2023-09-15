@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\a55acc6a-1546-40d2-bc63-d456e4433711_pexels-quang-anh-ha-nguyen-884979.jpg"
     },
     {
+      "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\accessDenied.jpg",
+      "PackagePath": "staticwebassets\\images\\accessDenied.jpg"
+    },
+    {
       "Id": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\images\\bw.jpg",
       "PackagePath": "staticwebassets\\images\\bw.jpg"
     },
