@@ -55,12 +55,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Create">Create</a>
                         </li>
 
-                        @if(signInUser.IsSignedIn(User) && User.IsInRole("Admin"))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Administration" asp-action="ListRoles">Manage Roles</a>
-                            </li>
-                        }
+                        <partial name="_AdminControls" />
 
                     </ul>
 
@@ -77,11 +72,9 @@
         </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - EmployeeManagement - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
 

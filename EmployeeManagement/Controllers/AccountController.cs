@@ -43,6 +43,11 @@ namespace EmployeeManagement.Controllers
 
                 if (result.Succeeded)
                 {
+                    if(signInMangaer.IsSignedIn(User) && User.IsInRole("Admin"))
+                    {
+                        return RedirectToAction("ListUsers", "Administration");
+                    }
+                    
                     await signInMangaer.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("index", "home");
                 }
@@ -76,8 +81,12 @@ namespace EmployeeManagement.Controllers
         {
             if (ModelState.IsValid)
             {
+                //var user=await userManager.FindByNameAsync(model.Email);
+
                 var result = await signInMangaer.PasswordSignInAsync(model.Email, model.Password,
                     model.RememberMe, false);
+
+                
 
                 if(result.Succeeded)
                 {
@@ -90,7 +99,7 @@ namespace EmployeeManagement.Controllers
                         return RedirectToAction("index", "home");
                     }
                 }
-
+                
                 ModelState.AddModelError(string.Empty, "Invalid Login Attempt");
             }
 

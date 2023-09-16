@@ -36,12 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Administration/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Administration/EditUserInRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXJJblJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Administration/ListRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Administration/ListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Home/Create.cshtml]
@@ -74,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Shared/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Shared/_AdminControls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkNvbnRyb2xzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Nirmal's PC/Visual_Studio_codes/DotNetLeearning/EmployeeManagement/Views/Shared/_LoginLogout.cshtml]
