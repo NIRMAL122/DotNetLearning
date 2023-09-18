@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GXmx/rDYure2AQfMRAdIoGQoWw7ILL5NPf0IlPbu53U=",
+  "Hash": "K39zOy+BRx69wzVDe0rM1czL0Ujl7TQCrhJvta518i0=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\e57b674d-7868-44b2-8f49-cef25fb60071_pexels-marcelo-moreira-2301713.jpg"
+    },
+    {
+      "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\js\\DeleteConfirmation.js",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "js/DeleteConfirmation.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\DeleteConfirmation.js"
     },
     {
       "Identity": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLeearning\\EmployeeManagement\\wwwroot\\js\\site.js",
