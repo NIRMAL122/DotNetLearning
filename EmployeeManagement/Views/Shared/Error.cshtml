@@ -1,6 +1,17 @@
-﻿<h3>An Error Occured while processing your Request</h3>
+﻿@if (ViewBag.ErrorTitle == null)
+{
+<h3>An Error Occured while processing your Request</h3>
 <h5>Please contact us on getHelpFromNirmal@gmail.com</h5>
-<hr />
+    <hr />
+
+}
+else
+{
+    <h1 class="text-danger">@ViewBag.ErrorTitle</h1>
+    <h5 class="text-danger">@ViewBag.ErrorMsg</h5>
+}
+
+
 
 @*<h3>Exception Details</h3>
 <div class="alert alert-danger">

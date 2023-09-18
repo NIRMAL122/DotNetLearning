@@ -12,12 +12,15 @@ namespace EmployeeManagement.Controllers
     {
         private readonly RoleManager<IdentityRole> roleManager;
         private readonly UserManager<ApplicationUser> userManager;
+        private readonly ILogger<AdministrationController> logger;
 
         public AdministrationController(RoleManager<IdentityRole> roleManager,
-                                        UserManager<ApplicationUser> userManager)
+                                        UserManager<ApplicationUser> userManager,
+                                        ILogger<AdministrationController> logger)
         {
             this.roleManager = roleManager;
             this.userManager = userManager;
+            this.logger = logger;
         }
         [HttpGet]
         public IActionResult CreateRole()
@@ -319,19 +322,32 @@ namespace EmployeeManagement.Controllers
             }
             else
             {
-                var result = await roleManager.DeleteAsync(role);
-
-                if (result.Succeeded)
+                try
                 {
-                    return RedirectToAction("ListRoles");
-                }
+                    var result = await roleManager.DeleteAsync(role);
 
-                foreach (var error in result.Errors)
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("ListRoles");
+                    }
+
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+
+                    return View("ListRoles");
+                }
+                catch(Exception ex)
                 {
-                    ModelState.AddModelError("", error.Description);
+                    logger.LogError($"Error deleting role {ex}");
+                    
+                    ViewBag.ErrorTitle = $"'{role.Name}' role is in use";
+                    ViewBag.ErrorMsg = $"'{role.Name}' role cannot be deleted as there are users in this role. " +
+                        $"If you want to delete this role, " +
+                        $"please remove the users from the role and then try to delete";
+                    return View("Error");
                 }
-
-                return View("ListRoles");
             }
 
         }
