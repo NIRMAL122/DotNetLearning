@@ -53,6 +53,13 @@ namespace EmployeeManagement
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
 
+            //adding Claims Based authorization
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Delete Role"));
+            });
+
             var app = builder.Build();
 
            
