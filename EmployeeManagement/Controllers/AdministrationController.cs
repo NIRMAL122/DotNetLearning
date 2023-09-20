@@ -9,7 +9,7 @@ using System.Security.Claims;
 
 namespace EmployeeManagement.Controllers
 {
-    //[Authorize(Roles = "Admin")]
+    //[Authorize(Policy = "AdminRolePolicy")]
     public class AdministrationController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
@@ -66,7 +66,7 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "EditRolePolicy")]
+        //[Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole(string id)
         {
             var role = await roleManager.FindByIdAsync(id);
@@ -96,7 +96,7 @@ namespace EmployeeManagement.Controllers
 
 
         [HttpPost]
-        [Authorize(Policy = "EditRolePolicy")]
+        //[Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole(EditRoleViewModel model)
         {
             var role = await roleManager.FindByIdAsync(model.Id);
@@ -314,7 +314,7 @@ namespace EmployeeManagement.Controllers
 
 
         [HttpPost]
-        [Authorize(Policy ="DeleteRolePolicy")]
+        //[Authorize(Policy ="DeleteRolePolicy")]
 
         public async Task<IActionResult> DeleteRole(string id)
         {
@@ -358,6 +358,7 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpGet]
+        [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> ManageUserRoles(string userId)
         {
             ViewBag.userId = userId;
@@ -395,7 +396,7 @@ namespace EmployeeManagement.Controllers
 
 
         [HttpPost]
-
+        [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> ManageUserRoles(List<UserRolesViewModel> model, string userId)
         {
             var user = await userManager.FindByIdAsync(userId);

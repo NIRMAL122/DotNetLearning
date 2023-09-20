@@ -1,4 +1,5 @@
 using EmployeeManagement.Models;
+using EmployeeManagement.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -58,20 +59,28 @@ namespace EmployeeManagement
             {
                 options.AddPolicy("DeleteRolePolicy",
                     policy => policy.RequireClaim("Delete Role","true"));
-                
-                //custom authorization policy
-                options.AddPolicy("EditRolePolicy",
-                    policy => policy.RequireAssertion(context=>
-                        context.User.IsInRole("Admin")&&
-                        context.User.HasClaim(claim=>claim.Type=="Edit Role" && claim.Value=="true")||
-                        context.User.IsInRole("superAdmin")));
 
-                options.AddPolicy("CreateRolePolicy",
-                    policy => policy.RequireClaim("Create Role", "true"));
+                //custom authorization policy
+                //options.AddPolicy("EditRolePolicy",
+                //    policy => policy.RequireAssertion(context=>
+                //        context.User.IsInRole("Admin")&&
+                //        context.User.HasClaim(claim=>claim.Type=="Edit Role" && claim.Value=="true")||
+                //        context.User.IsInRole("superAdmin")));
+
+
+                //policy with custom requirement
+                options.AddPolicy("EditRolePolicy",
+                    policy => policy.AddRequirements(new ManageAdminRolesAndClaimsRequirement()));
+
+                options.AddPolicy("AdminRolePolicy",
+                    policy => policy.RequireRole("Admin"));
 
             });
 
-            
+            //register cusotm handler class
+            builder.Services.AddScoped<IAuthorizationHandler, CanEditOnlyOtherAdminRolesAndClaimsHandler>();
+            builder.Services.AddScoped<IAuthorizationHandler, SuperAdminHandler>();
+            //builder.Services.AddSingleton<IAuthorizationHandler, CanEditOnlyOtherAdminRolesAndClaimsHandler>();
 
             var app = builder.Build();
 
