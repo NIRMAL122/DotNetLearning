@@ -57,15 +57,21 @@ namespace EmployeeManagement
             builder.Services.AddAuthorization(options =>
             {
                 options.AddPolicy("DeleteRolePolicy",
-                    policy => policy.RequireClaim("Delete Role"));
+                    policy => policy.RequireClaim("Delete Role","true"));
                 
+                //custom authorization policy
                 options.AddPolicy("EditRolePolicy",
-                    policy => policy.RequireClaim("Edit Role"));
+                    policy => policy.RequireAssertion(context=>
+                        context.User.IsInRole("Admin")&&
+                        context.User.HasClaim(claim=>claim.Type=="Edit Role" && claim.Value=="true")||
+                        context.User.IsInRole("superAdmin")));
 
                 options.AddPolicy("CreateRolePolicy",
-                    policy => policy.RequireClaim("Create Role"));
+                    policy => policy.RequireClaim("Create Role", "true"));
 
             });
+
+            
 
             var app = builder.Build();
 
