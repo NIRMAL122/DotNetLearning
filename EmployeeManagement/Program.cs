@@ -83,11 +83,7 @@ namespace EmployeeManagement
 
 
             //configuring Google authentication
-            builder.Services.AddAuthentication().AddGoogle(options =>
-            {
-                options.ClientId = "462678562285-evtgkitbb3tcjpedt94ej3ub7ch6904g.apps.googleusercontent.com";
-                options.ClientSecret = "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";
-            });
+            //code extracted out because of security reasons
 
 
             var app = builder.Build();
