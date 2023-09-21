@@ -80,7 +80,15 @@ namespace EmployeeManagement
             //register cusotm handler class
             builder.Services.AddScoped<IAuthorizationHandler, CanEditOnlyOtherAdminRolesAndClaimsHandler>();
             builder.Services.AddScoped<IAuthorizationHandler, SuperAdminHandler>();
-            //builder.Services.AddSingleton<IAuthorizationHandler, CanEditOnlyOtherAdminRolesAndClaimsHandler>();
+
+
+            //configuring Google authentication
+            builder.Services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "462678562285-evtgkitbb3tcjpedt94ej3ub7ch6904g.apps.googleusercontent.com";
+                options.ClientSecret = "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";
+            });
+
 
             var app = builder.Build();
 
