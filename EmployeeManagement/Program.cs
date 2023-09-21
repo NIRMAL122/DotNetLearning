@@ -84,6 +84,7 @@ namespace EmployeeManagement
 
             //configuring Google authentication
             //code extracted out because of security reasons
+            
 
 
             var app = builder.Build();

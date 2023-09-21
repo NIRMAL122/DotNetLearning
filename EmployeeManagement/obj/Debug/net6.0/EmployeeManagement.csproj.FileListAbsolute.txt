@@ -186,3 +186,4 @@ C:\Users\asus\Source\Repos\DotNetLearning\EmployeeManagement\obj\Debug\net6.0\re
 C:\Users\asus\Source\Repos\DotNetLearning\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
 C:\Users\asus\Source\Repos\DotNetLearning\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
 C:\Users\asus\Source\Repos\DotNetLearning\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
+C:\Users\asus\Source\Repos\DotNetLearning\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll

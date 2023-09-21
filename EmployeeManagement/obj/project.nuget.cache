@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bIhP99VJ50vUM7G9UG/dSzDL8/CywnydJDzaBbqF61kInU+kI1S4lX48c6kcB1b+gtbLU4Ad7wCgBpPqcyCy4A==",
+  "dgSpecHash": "wBMA4kLlBPjNiBK1RzUEUEgJTDZYZMLTdkbENxHUqynRjHv7LVMxCNgJ2ljHPThQFkKxboGjwx472n/k50pTzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\Source\\Repos\\DotNetLearning\\EmployeeManagement\\EmployeeManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.0\\microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.0\\microsoft.aspnetcore.authentication.google.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",
