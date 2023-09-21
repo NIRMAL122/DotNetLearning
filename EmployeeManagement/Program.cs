@@ -84,7 +84,17 @@ namespace EmployeeManagement
 
             //configuring Google authentication
             //code extracted out because of security reasons
-            
+            builder.Services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = builder.Configuration["GoogleClientId"];
+                options.ClientSecret = builder.Configuration["GoogleClientSecret"];
+            })
+            .AddFacebook(options =>
+            {
+                options.AppId = builder.Configuration["FacebookAppId"];
+                options.AppSecret = builder.Configuration["FacebookAppSecret"];
+            });
+
 
 
             var app = builder.Build();
