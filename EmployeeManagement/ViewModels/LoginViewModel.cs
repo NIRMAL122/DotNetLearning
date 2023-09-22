@@ -5,10 +5,10 @@ namespace EmployeeManagement.ViewModels
 {
     public class LoginViewModel
     {
-        public LoginViewModel()
-        {
-            ExternalLogins = new List<AuthenticationScheme>();
-        }
+        //public LoginViewModel()
+        //{
+        //    ExternalLogins = new List<AuthenticationScheme>();
+        //}
 
         [Required]
         [EmailAddress]

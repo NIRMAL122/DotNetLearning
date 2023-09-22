@@ -26,8 +26,9 @@ namespace EmployeeManagement
                     builder.Configuration.GetConnectionString("EmpDbConnection")));
 
             //AddIdentiy
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().
-                AddEntityFrameworkStores<AppDbContext>();
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
 
 
             //override password default settings
@@ -36,6 +37,8 @@ namespace EmployeeManagement
                 options.Password.RequiredLength = 5;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredUniqueChars = 0;
+
+                options.SignIn.RequireConfirmedEmail=true;
             });
 
             //logging
