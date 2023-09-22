@@ -33,9 +33,11 @@
                 </div>
             </div>
 
-@*            <input asp-for="ExternalLogins" value="@Model.ExternalLogins.Count()" hidden/>
-*@
+
             <button type="submit" class="btn btn-primary m-2">Login</button>
+            <div>
+                <a asp-action="ForgotPassword">Forgot Password</a>
+            </div>
 
         </form>
     </div>
