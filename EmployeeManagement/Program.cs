@@ -28,7 +28,10 @@ namespace EmployeeManagement
             //AddIdentiy
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
-                .AddDefaultTokenProviders();
+                .AddDefaultTokenProviders()
+                .AddTokenProvider<CustomEmailConfirmationTokenProvider
+                <ApplicationUser>>("CustomEmailConfirmation");
+
 
 
             //override password default settings
@@ -39,6 +42,7 @@ namespace EmployeeManagement
                 options.Password.RequiredUniqueChars = 0;
 
                 options.SignIn.RequireConfirmedEmail=true;
+                options.Tokens.EmailConfirmationTokenProvider = "CustomEmailConfirmation";
             });
 
             //logging
@@ -98,7 +102,12 @@ namespace EmployeeManagement
                 options.AppSecret = builder.Configuration["FacebookAppSecret"];
             });
 
-
+            //to change token lifespan of all the tokens (default lifeSpan 1 day)
+            builder.Services.Configure<DataProtectionTokenProviderOptions>(
+                options => options.TokenLifespan = TimeSpan.FromHours(1));
+            
+            builder.Services.Configure<CustomEmailConfirmationTokenProviderOptions>(
+                options => options.TokenLifespan = TimeSpan.FromDays(2));
 
             var app = builder.Build();
 
