@@ -109,6 +109,9 @@ namespace EmployeeManagement
             builder.Services.Configure<CustomEmailConfirmationTokenProviderOptions>(
                 options => options.TokenLifespan = TimeSpan.FromDays(2));
 
+            //Encryption-Decryption
+            builder.Services.AddSingleton<DataProtectionPurposeStrings>();
+
             var app = builder.Build();
 
            
