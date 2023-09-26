@@ -9,149 +9,149 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeManagement
 build_property.RootNamespace = EmployeeManagement
-build_property.ProjectDir = C:\Users\asus\Source\Repos\DotNetLearning\EmployeeManagement\
+build_property.ProjectDir = C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\EmployeeManagement\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\asus\Source\Repos\DotNetLearning\EmployeeManagement
+build_property.MSBuildProjectDirectory = C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\EmployeeManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/AccessDenied.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/AccountLocked.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/AccountLocked.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50TG9ja2VkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/AddPassword.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/AddPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZGRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/AddPasswordConfirmation.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/AddPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZGRQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/ChangePassword.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/ChangePasswordConfirmation.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/ChangePasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/ConfirmEmail.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/ForgotPassword.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/Login.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/Register.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/ResetPassword.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Account/ResetPasswordConfirmation.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/CreateRole.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlUm9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/EditRole.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/EditRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/EditUser.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/EditUserInRole.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/EditUserInRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXJJblJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/ListRoles.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/ListRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/ListUsers.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/ListUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/ManageUserClaims.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/ManageUserClaims.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTWFuYWdlVXNlckNsYWltcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Administration/ManageUserRoles.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Administration/ManageUserRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTWFuYWdlVXNlclJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Home/Create.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Home/Details.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Home/Edit.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Home/EmployeeNotFound.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Home/EmployeeNotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZU5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Home/Index.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Home/Privacy.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Shared/Error.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Shared/NotFound.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Shared/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Shared/_AdminControls.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Shared/_AdminControls.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkNvbnRyb2xzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Shared/_LoginLogout.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Shared/_LoginLogout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxvZ291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/_ViewImports.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/_ViewStart.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/Source/Repos/DotNetLearning/EmployeeManagement/Views/Shared/_Layout.cshtml]
+[C:/Nirmal's PC/Visual_Studio_codes/DotNetLearning/EmployeeManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zfw5uihhvp
