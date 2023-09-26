@@ -6,20 +6,19 @@ using System.Threading.Tasks;
 
 namespace SingletonDemo
 {
-    public sealed class Singleton
+    public sealed  class Singleton
     {
         private static int counter = 0;
         private static Singleton instance = null;
-        public static Singleton getInstance
+        public static Singleton getInstance()
         {
-            get
-            {
+            
                 if(instance==null)
                 {
                     instance = new Singleton();
                 }
                 return instance;
-            }
+            
         }
         private Singleton()
         {
@@ -33,5 +32,11 @@ namespace SingletonDemo
         {
             Console.WriteLine(message);
         }
+
+        //nested derived class
+        //public class b: Singleton
+        //{
+
+        //}
     }
 }
