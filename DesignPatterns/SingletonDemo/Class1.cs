@@ -22,4 +22,6 @@ namespace SingletonDemo
             Console.WriteLine("hi");
         }
     }
+
+    
 }

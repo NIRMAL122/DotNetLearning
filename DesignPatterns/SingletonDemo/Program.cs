@@ -9,7 +9,7 @@
                 ()=>PersonOne(),
                 ()=>PersonTwo()
                 );
-            
+
 
             //with the help of nested drived class we can create new object
             //of singleton class. which is not good. thats why we use "SEALED" keyword 
@@ -18,18 +18,23 @@
             //obj3.Print("Annalise");
 
 
+            //Singleton objj = Singleton.getInstance();
+            //objj.Print("eh");
+            //Singleton objjj = Singleton.getInstance();
+            //objj.Print("ho");
+
             
         }
 
         private static void PersonOne()
         {
-            Singleton obj = Singleton.getInstance();
+            ThreadSafeSingleton obj = ThreadSafeSingleton.getInstance();
             obj.Print("Charlie");
         }
 
         private static void PersonTwo()
         {
-            Singleton obj1 = Singleton.getInstance();
+            ThreadSafeSingleton obj1 = ThreadSafeSingleton.getInstance();
             obj1.Print("Laurel");
         }
     }

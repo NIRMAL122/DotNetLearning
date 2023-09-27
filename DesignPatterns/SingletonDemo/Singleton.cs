@@ -11,23 +11,16 @@ namespace SingletonDemo
         private static int counter = 0;
         private static Singleton instance = null;
 
-        //for Lock
-        private static readonly object obj = new object();
         public static Singleton getInstance()
         {
 
+            
             if (instance == null)
             {
-                //using lock to avoid the creation of multiple object in multithread
-                //environment
-                lock (obj)
-                {
-                    if (instance == null)
-                    {
-                        instance = new Singleton();
-                    }
-                }
+               instance = new Singleton();
             }
+                
+            
             return instance;
             
             
@@ -52,3 +45,9 @@ namespace SingletonDemo
         //}
     }
 }
+
+//While a private constructor prevents external instantiation, it is still
+//possible for a developer to create a subclass that inherits from the Singleton
+//class and introduces a second instance of the class. By marking the class
+//as sealed, you explicitly disallow any inheritance, ensuring that no subclass
+//can create its own instance.
