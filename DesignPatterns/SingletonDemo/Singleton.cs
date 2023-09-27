@@ -10,14 +10,26 @@ namespace SingletonDemo
     {
         private static int counter = 0;
         private static Singleton instance = null;
+
+        //for Lock
+        private static readonly object obj = new object();
         public static Singleton getInstance()
         {
-            
-                if(instance==null)
+
+            if (instance == null)
+            {
+                //using lock to avoid the creation of multiple object in multithread
+                //environment
+                lock (obj)
                 {
-                    instance = new Singleton();
+                    if (instance == null)
+                    {
+                        instance = new Singleton();
+                    }
                 }
-                return instance;
+            }
+            return instance;
+            
             
         }
         private Singleton()
