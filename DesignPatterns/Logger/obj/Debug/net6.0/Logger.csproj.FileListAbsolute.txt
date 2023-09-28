@@ -1,0 +1,12 @@
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\bin\Debug\net6.0\Logger.deps.json
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\bin\Debug\net6.0\Logger.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\bin\Debug\net6.0\Logger.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\Logger.csproj.AssemblyReference.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\Logger.AssemblyInfoInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\Logger.AssemblyInfo.cs
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\Logger.csproj.CoreCompileInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\Logger.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\refint\Logger.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\Logger.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLeearning\DesignPatterns\Logger\obj\Debug\net6.0\ref\Logger.dll
