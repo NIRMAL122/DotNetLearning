@@ -8,6 +8,7 @@ namespace SingletonDemo
 {
      sealed class Class1
     {
+        //sealed class functionality check
         public Class1()
         {
             Console.WriteLine("object created");
