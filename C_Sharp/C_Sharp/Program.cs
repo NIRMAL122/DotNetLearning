@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            TwoInterfacesWithSameMethod obj= new TwoInterfacesWithSameMethod();
+            ((A)obj).print();
+
+
+            string name = "nirmal singh";
+            Console.WriteLine(name.wordCount());
         }
     }
+
 }
