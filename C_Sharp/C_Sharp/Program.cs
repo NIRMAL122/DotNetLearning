@@ -1,4 +1,6 @@
-﻿namespace C_Sharp
+﻿using System.Collections;
+
+namespace C_Sharp
 {
     public class Program
     {
@@ -18,10 +20,10 @@
 
             //ImpetusInterview p= new ImpetusInterview();
             //p.print();
-            
+
             //ImpetusInterview p1= new child();
             //p1.print();
-            
+
             //child c = new child();
             //c.print();
 
@@ -37,8 +39,13 @@
             //VarDynamic obj = new VarDynamic();
             //Console.WriteLine(obj.method2("hi", 2));
 
-            asyncAwait obj=new asyncAwait();
-            obj.asyncAwaitFun();
+            //asyncAwait obj=new asyncAwait();
+            //obj.asyncAwaitFun();
+
+            CountOccurances obj= new CountOccurances();
+            obj.Count("occurrences");
+
+
 
         }
     }
