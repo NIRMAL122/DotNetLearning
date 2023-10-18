@@ -42,8 +42,12 @@ namespace C_Sharp
             //asyncAwait obj=new asyncAwait();
             //obj.asyncAwaitFun();
 
-            CountOccurances obj= new CountOccurances();
-            obj.Count("occurrences");
+            //CountOccurances obj= new CountOccurances();
+            //obj.Count("occurrences");
+
+
+            SwitchStatement obj= new SwitchStatement();
+            obj.SwitchFun();
 
 
 
