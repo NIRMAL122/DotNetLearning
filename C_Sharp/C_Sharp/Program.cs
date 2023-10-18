@@ -46,8 +46,8 @@ namespace C_Sharp
             //obj.Count("occurrences");
 
 
-            SwitchStatement obj= new SwitchStatement();
-            obj.SwitchFun();
+            CoffeeShopUsingSwitch obj = new CoffeeShopUsingSwitch();
+            obj.Coffee();
 
 
 
