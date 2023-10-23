@@ -46,8 +46,14 @@ namespace C_Sharp
             //obj.Count("occurrences");
 
 
-            CoffeeShopUsingSwitch obj = new CoffeeShopUsingSwitch();
-            obj.Coffee();
+            //CoffeeShopUsingSwitch obj = new CoffeeShopUsingSwitch();
+            //obj.Coffee();
+
+            //doWhileLoop.fun();
+
+            //Abstraction obj= new Abstraction();
+            //obj.calculate(10, 2);
+           
 
 
 
