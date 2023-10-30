@@ -53,7 +53,32 @@ namespace C_Sharp
 
             //Abstraction obj= new Abstraction();
             //obj.calculate(10, 2);
-           
+
+            //int i = 0;
+            //PassByValueReference.PassByValue(i);
+            //PassByValueReference.PassByReference(ref i);
+            //Console.WriteLine(i);
+
+            //int sum = 0;
+            //int product = 0;
+            //OutKeyword.calculate(10, 20, out sum, out product);
+            //Console.WriteLine("sum={0} and Product={1}",sum,product);
+
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+
+            //paramKeyword.paramMethod();
+            //paramKeyword.paramMethod(numbers);
+            //paramKeyword.paramMethod(10,20,30);
+
+
+            string input1 = "AAB";
+            string input2 = "AZZ";
+
+            NextSequence obj= new NextSequence();
+            Console.WriteLine(obj.GetNextValue(input1));
+            Console.WriteLine(obj.GetNextValue(input2));
+
+
 
 
 
