@@ -71,13 +71,26 @@ namespace C_Sharp
             //paramKeyword.paramMethod(10,20,30);
 
 
-            string input1 = "AAB";
-            string input2 = "AZZ";
+            //string input1 = "AAB";
+            //string input2 = "AZZ";
 
-            NextSequence obj= new NextSequence();
-            Console.WriteLine(obj.GetNextValue(input1));
-            Console.WriteLine(obj.GetNextValue(input2));
+            //NextSequence obj= new NextSequence();
+            //Console.WriteLine(obj.GetNextValue(input1));
+            //Console.WriteLine(obj.GetNextValue(input2));
 
+
+
+
+            //PositiveNegativePair obj = new PositiveNegativePair();
+            //int[] arr = { 1, 3, 4, -1, -7, 5, 7, 8, -8,9,9,-9,-9 };
+            //obj.Pairs(arr);
+
+
+            PaytmInterview obj= new PaytmInterviewChild();
+            //PaytmInterviewChild obj1 = new PaytmInterview(); ->child object cannot hold the reference of parent class
+
+            obj.print();
+            //obj.print2(); -> Error
 
 
 
