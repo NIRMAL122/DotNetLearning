@@ -86,11 +86,18 @@ namespace C_Sharp
             //obj.Pairs(arr);
 
 
-            PaytmInterview obj= new PaytmInterviewChild();
+            //PaytmInterview obj= new PaytmInterviewChild();
             //PaytmInterviewChild obj1 = new PaytmInterview(); ->child object cannot hold the reference of parent class
 
-            obj.print();
+            //obj.print();
             //obj.print2(); -> Error
+
+
+            x obj= new y();
+            obj.print();
+
+            y obj1= new y();
+            obj1.print();
 
 
 
