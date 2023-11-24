@@ -13,6 +13,7 @@ namespace C_Sharp
     class y:x
     {
         public new void print() { Console.WriteLine("y"); }
+        public new void print1() { Console.WriteLine("print1"); }
     }
     
 }

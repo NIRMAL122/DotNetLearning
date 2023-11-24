@@ -93,11 +93,22 @@ namespace C_Sharp
             //obj.print2(); -> Error
 
 
-            x obj= new y();
-            obj.print();
+            //x obj= new y();
+            //obj.print();
+            ////obj.print1();  
 
-            y obj1= new y();
-            obj1.print();
+            //y obj1= new y();
+            //obj1.print();
+
+
+            //ReverseString obj=new ReverseString("Nirmal");
+
+
+            //CountOccurance obj= new CountOccurance();
+            //obj.count("a,b,a,1,+,b,#,+,#");
+
+            BingoGame obj= new BingoGame();
+            obj.StartGame();
 
 
 

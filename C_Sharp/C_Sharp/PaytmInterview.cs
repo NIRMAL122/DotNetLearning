@@ -44,11 +44,15 @@ namespace C_Sharp
     }
     class interview : IInterview, IInterview1
     {
-            public void print()
-            {
+             void IInterview1.print()
+                {
                 Console.WriteLine("Paytm");
+                }
+
+            void IInterview.print()
+            {
+            throw new NotImplementedException();
             }
-        
     }
 
 }
