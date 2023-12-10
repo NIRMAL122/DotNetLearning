@@ -1,0 +1,15 @@
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\bin\Debug\net6.0\NetworkUtility.exe
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\bin\Debug\net6.0\NetworkUtility.deps.json
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\bin\Debug\net6.0\NetworkUtility.runtimeconfig.json
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\bin\Debug\net6.0\NetworkUtility.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\bin\Debug\net6.0\NetworkUtility.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.csproj.AssemblyReference.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.AssemblyInfoInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.AssemblyInfo.cs
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.csproj.CoreCompileInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\refint\NetworkUtility.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\NetworkUtility.genruntimeconfig.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\NetworkUtility\obj\Debug\net6.0\ref\NetworkUtility.dll
