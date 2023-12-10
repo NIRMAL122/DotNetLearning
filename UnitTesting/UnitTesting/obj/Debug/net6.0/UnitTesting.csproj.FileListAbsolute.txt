@@ -1,0 +1,15 @@
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\bin\Debug\net6.0\UnitTesting.exe
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\bin\Debug\net6.0\UnitTesting.deps.json
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\bin\Debug\net6.0\UnitTesting.runtimeconfig.json
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\bin\Debug\net6.0\UnitTesting.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\bin\Debug\net6.0\UnitTesting.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.AssemblyReference.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfoInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfo.cs
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.CoreCompileInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\refint\UnitTesting.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.genruntimeconfig.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\UnitTesting\UnitTesting\obj\Debug\net6.0\ref\UnitTesting.dll

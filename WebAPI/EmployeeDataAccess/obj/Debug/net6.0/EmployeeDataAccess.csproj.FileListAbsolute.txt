@@ -1,0 +1,14 @@
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\bin\Debug\net6.0\EmployeeDataAccess.deps.json
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\bin\Debug\net6.0\EmployeeDataAccess.runtimeconfig.json
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\bin\Debug\net6.0\EmployeeDataAccess.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\bin\Debug\net6.0\EmployeeDataAccess.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.csproj.AssemblyReference.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.AssemblyInfoInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.AssemblyInfo.cs
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\refint\EmployeeDataAccess.dll
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.pdb
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\EmployeeDataAccess.genruntimeconfig.cache
+C:\Nirmal's PC\Visual_Studio_codes\DotNetLearning\WebAPI\EmployeeDataAccess\obj\Debug\net6.0\ref\EmployeeDataAccess.dll
