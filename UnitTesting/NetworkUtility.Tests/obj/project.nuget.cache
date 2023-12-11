@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "04A3211NZds/R0Dq+Hd7/33F0pnDupP++JC77dhR1QRQ/E4+dbiWjXLSAITk7Eo0SHLm6nKIDdr2Wp2RkFIE+g==",
+  "dgSpecHash": "KOAVH6vAfgLqVVtHjs+xFT3GIuwPK2p6GzlG76s/T+Rd5jSxHNnIbkxfL/KAw+WgOzh0cIFufLADz6v2ILMSdg==",
   "success": true,
   "projectFilePath": "C:\\Nirmal's PC\\Visual_Studio_codes\\DotNetLearning\\UnitTesting\\NetworkUtility.Tests\\NetworkUtility.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\fakeiteasy\\8.0.0\\fakeiteasy.8.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -41,6 +43,7 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
